@@ -1,4 +1,5 @@
 #include <iostream>
+#include <limits>
 using namespace std;
 /*
 关于
@@ -7,7 +8,8 @@ using namespace std;
 */
 int main(){
     cout<<"hello world"<<endl;
-    system("pause");
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    cin.get();
     return 0;
 }
 
