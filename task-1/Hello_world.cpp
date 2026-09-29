@@ -9,7 +9,7 @@ using namespace std;
 int main(){
     cout<<"hello world"<<endl;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    cin.get();
+    //cin.get();
     return 0;
 }
 
