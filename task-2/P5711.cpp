@@ -90,6 +90,6 @@ int main() {
     unsigned short int n;
     cin >> n;
     cin.ignore();
-    cout << ((n%4==0 && n%100!=0) && (n%400==0)) << endl;
+    cout << ((n%4==0 && n%100!=0) || (n%400==0)) << endl;
     return 0;
 }
